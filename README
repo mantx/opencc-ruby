@@ -1,0 +1,8 @@
+Use Opencc in Ruby
+
+require "rubygems"
+require "opencc-ruby"
+
+opencc = Opencc::Convert.new
+puts opencc.convert "大家新年快乐，万事如意"
+puts opencc.convert "用起来很方便"
